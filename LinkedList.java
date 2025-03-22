@@ -54,7 +54,18 @@ public class LinkedList {
 			throw new IllegalArgumentException(
 					"index must be between 0 and size");
 		}
-		//// Replace the following statement with your code
+
+		ListIterator itr = this.iterator();
+		int i = 0;
+		if (index == 0) {return itr.current;}
+		while (itr.hasNext()) {
+			if ( i == index) {return itr.current;}
+			i++;
+			itr.next();
+		}
+
+
+		
 		return null;
 	}
 	
