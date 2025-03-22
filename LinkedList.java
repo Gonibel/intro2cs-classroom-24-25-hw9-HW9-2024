@@ -56,6 +56,7 @@ public class LinkedList {
 		}
 
 		ListIterator itr = this.iterator();
+		int x;
 		int i = 0;
 		if (index == 0) {return itr.current;}
 		while (itr.hasNext()) {
