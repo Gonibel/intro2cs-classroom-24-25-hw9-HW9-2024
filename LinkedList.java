@@ -63,7 +63,7 @@ public class LinkedList {
 			if ( i == index) {return itr.current;}
 			i++;
 			itr.next();
-			int z;
+			int y;
 		}
 
 
